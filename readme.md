@@ -27,4 +27,5 @@ Due to no error handler, any sorts of error will halt the retrieving process. Yo
 ## To do list
 * Error handler for over query limitation, perform query again instead of skipping it
 * Error handler for location unable to be identified by Google, maybe just skip instead of getting stuck
+
 Hope I ever get to fix any of these, probably won't.
