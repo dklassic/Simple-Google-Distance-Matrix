@@ -10,6 +10,7 @@ Eligible choice of location can be:
 *    Lat long separated with comma
 *    Google map readable location name
 *    Address
+
 For example:
 *    Taipei 101|Fifth Avenue
 *    36,-75|34.222,-100.444
@@ -19,7 +20,7 @@ Also Google Distance Matrix has "Elements per second" limitation, the matrix wil
 However for unknown reason Google often still responds with over query error, thus borns incremental delay (By default extra 0.1 seconds per request). This will decrease the chance of over query error, but will still occur occasionally.
 
 
-Also note that Google can only accept update to 2500 elements per day, so good luck with that. If you have google cloud platform api, you can use it for up to 100,000 elemts per day.
+Also note that Google can only accept update to 2500 elements per day, so good luck with that. If you have Google cloud platform api, you can use it for up to 100,000 elemts per day.
 
 ## Notes on error
 Due to no error handler, any sorts of error will halt the retrieving process. You can lookup in console log to see what's happening and try to solve it.
