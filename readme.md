@@ -6,7 +6,7 @@ Basically a quick and dirty distance matrix retriever. A by product from one of 
 Enter Origin and Destination then VUALA. Separate location with "|", note that destination is limited to 25 locations max due to implementation, however origin has no limitation.
 
 Eligible choice of location can be:
-*    Lat long separated with comma
+*    Lat long separated by comma
 *    Google map readable location name
 *    Address
 
